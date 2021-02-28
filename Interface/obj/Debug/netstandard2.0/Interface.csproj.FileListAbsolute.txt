@@ -1,0 +1,13 @@
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.csprojAssemblyReference.cache
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.AssemblyInfoInputs.cache
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.AssemblyInfo.cs
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.csproj.CoreCompileInputs.cache
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\Interface.deps.json
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\Interface.dll
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\Interface.pdb
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\EntityFramework.dll
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\EntityFramework.xml
+C:\Users\Popka\source\repos\Interface\bin\Debug\netstandard2.0\ru\EntityFramework.resources.dll
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.csproj.CopyComplete
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.dll
+C:\Users\Popka\source\repos\Interface\obj\Debug\netstandard2.0\Interface.pdb

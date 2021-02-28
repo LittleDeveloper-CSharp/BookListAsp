@@ -1,0 +1,15 @@
+{
+<<<<<<< HEAD
+  "ExpandedNodes": [],
+  "SelectedNode": "\\BookAccounting.sln",
+=======
+  "ExpandedNodes": [
+    "",
+    "\\Models",
+    "\\Views",
+    "\\Views\\Book"
+  ],
+  "SelectedNode": "\\Views\\Book\\GetListAuthor.cshtml",
+>>>>>>> 9df453b129e96bc3b3edf76fded6a4fdd0e2770a
+  "PreviewInSolutionExplorer": false
+}

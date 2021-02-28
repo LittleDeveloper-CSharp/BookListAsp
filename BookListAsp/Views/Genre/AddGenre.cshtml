@@ -1,0 +1,14 @@
+﻿@model Interface.Models.Genre
+@{
+    ViewData["Title"] = "Добавить жанр";
+}
+
+<form method="post">
+    <div>
+        <p>
+            <label asp-for="Description">Наименование жанра:</label>
+            <input asp-for="Description"/>
+        </p>
+    </div>
+    <button value="Добавить" type="submit">Добавить</button>
+</form>

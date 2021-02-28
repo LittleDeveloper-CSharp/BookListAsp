@@ -1,0 +1,32 @@
+﻿@model IEnumirable<BookListAsp.Models.Book>
+@{
+ViewData["Title"] = "Список книг";
+}
+
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Count</th>
+                <th>Author</th>
+                <th>Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var i in @Model)
+            {
+            <tr>
+                <td>@i.id</td>
+                <td>@i.Name</td>
+                <td>@i.Count</td>
+                <td>@i.Author</td>
+                <td>@i.Genre</td>
+                <td><a>Изменить</a></td>
+                <td><a>Удалить</a></td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>

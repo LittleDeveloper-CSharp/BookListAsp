@@ -1,0 +1,38 @@
+﻿@using Interface.Models
+@model Book
+
+@{
+    ViewData["Title"] = "Добавление книги";
+}
+
+<form method="post">
+    <div>
+        <div>
+            <label asp-for="Name">Имя:</label>
+            <input asp-for="Name" />
+        </div>
+        <div>
+            <label asp-for="Count">Количество:</label>
+            <input asp-for="Count" />
+        </div>
+        <div>
+            <label>Жанр:</label>
+            <select asp-for="idGenre">
+                @foreach (var item in @ViewBag.ItemGenre)
+                {
+                    <option value="@item.GenreId">@item.Description</option>
+                }
+            </select>
+        </div>
+        <div>
+            <label>Автор:</label>
+            <select asp-for="idAuthor">
+                @foreach (var item in @ViewBag.ItemAuthor)
+                {
+                    <option value="@item.AuthorId">@item.LastName @item.FirstName @item.Patronymic</option>
+                }
+            </select>
+        </div>
+    </div>
+    <button type="submit">Добавить</button>
+</form>

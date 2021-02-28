@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Interface.Models.Genre>
+@{
+    ViewData["Title"] = "Список жанров";
+}
+
+<div>
+    <table class="table table-bordered">
+        <thead>
+            <tr><th>ID</th><th>Название жанра</th><th>Действие</th></tr>
+        </thead>
+        <thead>
+            @foreach (var i in @Model)
+            {
+                <tr>
+                    <td>@i.GenreId</td>
+                    <td>@i.Description</td>
+                    <td><a asp-action="DeleteGenre" asp-route-id="@i.GenreId">Удалить</a></td>
+                </tr>
+            }
+        </thead>
+    </table>
+    <form method="get">
+        <button asp-controller="Genre" asp-action="AddGenre">Добавить</button>
+    </form>
+</div>
