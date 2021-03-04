@@ -1,6 +1,7 @@
 using BookListAsp.Models;
-using Interface;
-using Interface.Models;
+using ClassesModels;
+using ClassesModels.Interface;
+using ClassesModels.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -19,7 +20,7 @@ namespace BookListAsp
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            Database.SetInitializer<ContextModel>(new DropCreateDatabaseIfModelChanges<ContextModel>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<ContextModel>());
         }
 
         public IConfiguration Configuration { get; }

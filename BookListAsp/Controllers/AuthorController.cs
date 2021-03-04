@@ -1,5 +1,5 @@
-﻿using Interface;
-using Interface.Models;
+﻿using ClassesModels.Interface;
+using ClassesModels.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookListAsp.Controllers

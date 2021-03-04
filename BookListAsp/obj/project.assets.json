@@ -871,7 +871,7 @@
           "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/5.0.0": {
+      "System.ComponentModel.Annotations/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
@@ -2067,17 +2067,17 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "Interface/1.0.0": {
+      "ClassesModels/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "System.ComponentModel.Annotations": "5.0.0"
+          "EntityFramework": "6.4.4"
         },
         "compile": {
-          "bin/placeholder/Interface.dll": {}
+          "bin/placeholder/ClassesModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Interface.dll": {}
+          "bin/placeholder/ClassesModels.dll": {}
         }
       }
     }
@@ -3647,14 +3647,13 @@
         "version.txt"
       ]
     },
-    "System.ComponentModel.Annotations/5.0.0": {
-      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+    "System.ComponentModel.Annotations/4.7.0": {
+      "sha512": "0YFqjhp/mYkDGpU0Ye1GjE53HMp9UVfGN7seGpAMttAC0C40v5gw598jCgpbBLMmCo0E5YRLBv5Z2doypO49ZQ==",
       "type": "package",
-      "path": "system.componentmodel.annotations/5.0.0",
+      "path": "system.componentmodel.annotations/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/MonoAndroid10/_._",
@@ -3731,7 +3730,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
+        "system.componentmodel.annotations.4.7.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -7063,16 +7062,15 @@
         "system.xml.xdocument.nuspec"
       ]
     },
-    "Interface/1.0.0": {
+    "ClassesModels/1.0.0": {
       "type": "project",
-      "path": "../Interface/Interface.csproj",
-      "msbuildProject": "../Interface/Interface.csproj"
+      "path": "../ClassLibrary1/ClassesModels.csproj",
+      "msbuildProject": "../ClassLibrary1/ClassesModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "EntityFramework >= 6.4.4",
-      "Interface >= 1.0.0",
+      "ClassesModels >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
@@ -7108,8 +7106,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Popka\\source\\repos\\BookAccounting\\Interface\\Interface.csproj": {
-              "projectPath": "C:\\Users\\Popka\\source\\repos\\BookAccounting\\Interface\\Interface.csproj"
+            "C:\\Users\\Popka\\source\\repos\\BookAccounting\\ClassLibrary1\\ClassesModels.csproj": {
+              "projectPath": "C:\\Users\\Popka\\source\\repos\\BookAccounting\\ClassLibrary1\\ClassesModels.csproj"
             }
           }
         }
@@ -7124,10 +7122,6 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
-          "EntityFramework": {
-            "target": "Package",
-            "version": "[6.4.4, )"
-          },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"

@@ -330,7 +330,7 @@
     } // Static
     ;
 
-    Alert._jQueryInterface = function _jQueryInterface(config) {
+    Alert._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var $element = $(this);
         var data = $element.data(DATA_KEY);
@@ -379,12 +379,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME] = Alert._jQueryInterface;
+  $.fn[NAME] = Alert._jQueryClassesModels;
   $.fn[NAME].Constructor = Alert;
 
   $.fn[NAME].noConflict = function () {
     $.fn[NAME] = JQUERY_NO_CONFLICT;
-    return Alert._jQueryInterface;
+    return Alert._jQueryClassesModels;
   };
 
   /**
@@ -483,7 +483,7 @@
     } // Static
     ;
 
-    Button._jQueryInterface = function _jQueryInterface(config) {
+    Button._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$1);
 
@@ -522,7 +522,7 @@
       button = $(button).closest(Selector$1.BUTTON);
     }
 
-    Button._jQueryInterface.call($(button), 'toggle');
+    Button._jQueryClassesModels.call($(button), 'toggle');
   }).on(Event$1.FOCUS_BLUR_DATA_API, Selector$1.DATA_TOGGLE_CARROT, function (event) {
     var button = $(event.target).closest(Selector$1.BUTTON)[0];
     $(button).toggleClass(ClassName$1.FOCUS, /^focus(in)?$/.test(event.type));
@@ -533,12 +533,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$1] = Button._jQueryInterface;
+  $.fn[NAME$1] = Button._jQueryClassesModels;
   $.fn[NAME$1].Constructor = Button;
 
   $.fn[NAME$1].noConflict = function () {
     $.fn[NAME$1] = JQUERY_NO_CONFLICT$1;
-    return Button._jQueryInterface;
+    return Button._jQueryClassesModels;
   };
 
   /**
@@ -1034,7 +1034,7 @@
     } // Static
     ;
 
-    Carousel._jQueryInterface = function _jQueryInterface(config) {
+    Carousel._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$2);
 
@@ -1087,7 +1087,7 @@
         config.interval = false;
       }
 
-      Carousel._jQueryInterface.call($(target), config);
+      Carousel._jQueryClassesModels.call($(target), config);
 
       if (slideIndex) {
         $(target).data(DATA_KEY$2).to(slideIndex);
@@ -1124,7 +1124,7 @@
     for (var i = 0, len = carousels.length; i < len; i++) {
       var $carousel = $(carousels[i]);
 
-      Carousel._jQueryInterface.call($carousel, $carousel.data());
+      Carousel._jQueryClassesModels.call($carousel, $carousel.data());
     }
   });
   /**
@@ -1133,12 +1133,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$2] = Carousel._jQueryInterface;
+  $.fn[NAME$2] = Carousel._jQueryClassesModels;
   $.fn[NAME$2].Constructor = Carousel;
 
   $.fn[NAME$2].noConflict = function () {
     $.fn[NAME$2] = JQUERY_NO_CONFLICT$2;
-    return Carousel._jQueryInterface;
+    return Carousel._jQueryClassesModels;
   };
 
   /**
@@ -1276,7 +1276,7 @@
       }
 
       if (actives) {
-        Collapse._jQueryInterface.call($(actives).not(this._selector), 'hide');
+        Collapse._jQueryClassesModels.call($(actives).not(this._selector), 'hide');
 
         if (!activesData) {
           $(actives).data(DATA_KEY$3, null);
@@ -1423,7 +1423,7 @@
       return selector ? document.querySelector(selector) : null;
     };
 
-    Collapse._jQueryInterface = function _jQueryInterface(config) {
+    Collapse._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var $this = $(this);
         var data = $this.data(DATA_KEY$3);
@@ -1484,7 +1484,7 @@
       var data = $target.data(DATA_KEY$3);
       var config = data ? 'toggle' : $trigger.data();
 
-      Collapse._jQueryInterface.call($target, config);
+      Collapse._jQueryClassesModels.call($target, config);
     });
   });
   /**
@@ -1493,12 +1493,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$3] = Collapse._jQueryInterface;
+  $.fn[NAME$3] = Collapse._jQueryClassesModels;
   $.fn[NAME$3].Constructor = Collapse;
 
   $.fn[NAME$3].noConflict = function () {
     $.fn[NAME$3] = JQUERY_NO_CONFLICT$3;
-    return Collapse._jQueryInterface;
+    return Collapse._jQueryClassesModels;
   };
 
   /**!
@@ -4056,7 +4056,7 @@
   }();
 
   /**
-   * The `referenceObject` is an object that provides an interface compatible with Popper.js
+   * The `referenceObject` is an object that provides an ClassesModels compatible with Popper.js
    * and lets you use it as replacement of a real DOM node.<br />
    * You can use this method to position a popper relatively to a set of coordinates
    * in case you don't have a DOM node to use as reference.
@@ -4415,7 +4415,7 @@
     } // Static
     ;
 
-    Dropdown._jQueryInterface = function _jQueryInterface(config) {
+    Dropdown._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$4);
 
@@ -4588,7 +4588,7 @@
     event.preventDefault();
     event.stopPropagation();
 
-    Dropdown._jQueryInterface.call($(this), 'toggle');
+    Dropdown._jQueryClassesModels.call($(this), 'toggle');
   }).on(Event$4.CLICK_DATA_API, Selector$4.FORM_CHILD, function (e) {
     e.stopPropagation();
   });
@@ -4598,12 +4598,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$4] = Dropdown._jQueryInterface;
+  $.fn[NAME$4] = Dropdown._jQueryClassesModels;
   $.fn[NAME$4].Constructor = Dropdown;
 
   $.fn[NAME$4].noConflict = function () {
     $.fn[NAME$4] = JQUERY_NO_CONFLICT$4;
-    return Dropdown._jQueryInterface;
+    return Dropdown._jQueryClassesModels;
   };
 
   /**
@@ -5099,7 +5099,7 @@
     } // Static
     ;
 
-    Modal._jQueryInterface = function _jQueryInterface(config, relatedTarget) {
+    Modal._jQueryClassesModels = function _jQueryClassesModels(config, relatedTarget) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$5);
 
@@ -5172,7 +5172,7 @@
       });
     });
 
-    Modal._jQueryInterface.call($(target), config, this);
+    Modal._jQueryClassesModels.call($(target), config, this);
   });
   /**
    * ------------------------------------------------------------------------
@@ -5180,12 +5180,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$5] = Modal._jQueryInterface;
+  $.fn[NAME$5] = Modal._jQueryClassesModels;
   $.fn[NAME$5].Constructor = Modal;
 
   $.fn[NAME$5].noConflict = function () {
     $.fn[NAME$5] = JQUERY_NO_CONFLICT$5;
-    return Modal._jQueryInterface;
+    return Modal._jQueryClassesModels;
   };
 
   /**
@@ -5947,7 +5947,7 @@
     } // Static
     ;
 
-    Tooltip._jQueryInterface = function _jQueryInterface(config) {
+    Tooltip._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$6);
 
@@ -6018,12 +6018,12 @@
    */
 
 
-  $.fn[NAME$6] = Tooltip._jQueryInterface;
+  $.fn[NAME$6] = Tooltip._jQueryClassesModels;
   $.fn[NAME$6].Constructor = Tooltip;
 
   $.fn[NAME$6].noConflict = function () {
     $.fn[NAME$6] = JQUERY_NO_CONFLICT$6;
-    return Tooltip._jQueryInterface;
+    return Tooltip._jQueryClassesModels;
   };
 
   /**
@@ -6133,7 +6133,7 @@
     } // Static
     ;
 
-    Popover._jQueryInterface = function _jQueryInterface(config) {
+    Popover._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$7);
 
@@ -6205,12 +6205,12 @@
    */
 
 
-  $.fn[NAME$7] = Popover._jQueryInterface;
+  $.fn[NAME$7] = Popover._jQueryClassesModels;
   $.fn[NAME$7].Constructor = Popover;
 
   $.fn[NAME$7].noConflict = function () {
     $.fn[NAME$7] = JQUERY_NO_CONFLICT$7;
-    return Popover._jQueryInterface;
+    return Popover._jQueryClassesModels;
   };
 
   /**
@@ -6454,7 +6454,7 @@
     } // Static
     ;
 
-    ScrollSpy._jQueryInterface = function _jQueryInterface(config) {
+    ScrollSpy._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var data = $(this).data(DATA_KEY$8);
 
@@ -6503,7 +6503,7 @@
     for (var i = scrollSpysLength; i--;) {
       var $spy = $(scrollSpys[i]);
 
-      ScrollSpy._jQueryInterface.call($spy, $spy.data());
+      ScrollSpy._jQueryClassesModels.call($spy, $spy.data());
     }
   });
   /**
@@ -6512,12 +6512,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$8] = ScrollSpy._jQueryInterface;
+  $.fn[NAME$8] = ScrollSpy._jQueryClassesModels;
   $.fn[NAME$8].Constructor = ScrollSpy;
 
   $.fn[NAME$8].noConflict = function () {
     $.fn[NAME$8] = JQUERY_NO_CONFLICT$8;
-    return ScrollSpy._jQueryInterface;
+    return ScrollSpy._jQueryClassesModels;
   };
 
   /**
@@ -6700,7 +6700,7 @@
     } // Static
     ;
 
-    Tab._jQueryInterface = function _jQueryInterface(config) {
+    Tab._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var $this = $(this);
         var data = $this.data(DATA_KEY$9);
@@ -6739,7 +6739,7 @@
   $(document).on(Event$9.CLICK_DATA_API, Selector$9.DATA_TOGGLE, function (event) {
     event.preventDefault();
 
-    Tab._jQueryInterface.call($(this), 'show');
+    Tab._jQueryClassesModels.call($(this), 'show');
   });
   /**
    * ------------------------------------------------------------------------
@@ -6747,12 +6747,12 @@
    * ------------------------------------------------------------------------
    */
 
-  $.fn[NAME$9] = Tab._jQueryInterface;
+  $.fn[NAME$9] = Tab._jQueryClassesModels;
   $.fn[NAME$9].Constructor = Tab;
 
   $.fn[NAME$9].noConflict = function () {
     $.fn[NAME$9] = JQUERY_NO_CONFLICT$9;
-    return Tab._jQueryInterface;
+    return Tab._jQueryClassesModels;
   };
 
   /**
@@ -6914,7 +6914,7 @@
     } // Static
     ;
 
-    Toast._jQueryInterface = function _jQueryInterface(config) {
+    Toast._jQueryClassesModels = function _jQueryClassesModels(config) {
       return this.each(function () {
         var $element = $(this);
         var data = $element.data(DATA_KEY$a);
@@ -6962,12 +6962,12 @@
    */
 
 
-  $.fn[NAME$a] = Toast._jQueryInterface;
+  $.fn[NAME$a] = Toast._jQueryClassesModels;
   $.fn[NAME$a].Constructor = Toast;
 
   $.fn[NAME$a].noConflict = function () {
     $.fn[NAME$a] = JQUERY_NO_CONFLICT$a;
-    return Toast._jQueryInterface;
+    return Toast._jQueryClassesModels;
   };
 
   /**

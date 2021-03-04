@@ -1,6 +1,6 @@
 ﻿using BookListAsp.Models;
-using Interface;
-using Interface.Models;
+using ClassesModels.Interface;
+using ClassesModels.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Diagnostics;

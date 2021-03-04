@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yJBms1jo0o3DYUoGe57bxp9cHs1RGOCUbxydIolXm3kXoQEPBOd2xiYTYwVGWgmdzvcxE3k/V9qoKi+B/wfseQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Popka\\source\\repos\\BookAccounting\\ClassesModels\\ClassesModels.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Popka\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\Popka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Popka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

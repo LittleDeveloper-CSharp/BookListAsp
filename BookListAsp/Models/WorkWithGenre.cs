@@ -1,5 +1,6 @@
-﻿using Interface;
-using Interface.Models;
+﻿using ClassesModels;
+using ClassesModels.Interface;
+using ClassesModels.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;

@@ -1,10 +1,9 @@
-﻿using Interface;
-using Interface.Models;
-using System;
+﻿using ClassesModels;
+using ClassesModels.Interface;
+using ClassesModels.Models;
 using System.Collections.Generic;
 using System.Data.Entity.Migrations;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace BookListAsp.Models
 {

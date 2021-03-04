@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4g8u2ZDl4N+8fpLt8HFvv2IKqqjs7CgMp5kje3raz8ty7U7Fc8AoI2yateP8Le0caqCYg9x2NMAGYO5R4kx9cg==",
+  "dgSpecHash": "u/3rCT0CUPSdYQW+NsZSBoS85UFMIgF+GDmclYqROJxJOSeslpsOuKsylyLoOeKgp3emCqiUvV/hjcq757oXQw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Popka\\source\\repos\\BookAccounting\\Interface\\Interface.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Popka\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",
     "C:\\Users\\Popka\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Popka\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Popka\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"

@@ -4,11 +4,7 @@
 		<UserSecretsId>3481582f-d153-4187-bdd3-da392ad8f6fc</UserSecretsId>
 	</PropertyGroup>
 	<ItemGroup>
+		<PackageReference Include="EntityFramework" Version="6.4.0" />
 		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-	</ItemGroup>
-	<ItemGroup>
-		<Reference Include="EntityFramework">
-			<HintPath>..\accounting for graduates\bin\Debug\EntityFramework.dll</HintPath>
-		</Reference>
 	</ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-﻿@model IEnumirable<BookListAsp.Models.Book>
+﻿@model IEnumerable<ClassesModels.Models.Book>
 @{
 ViewData["Title"] = "Список книг";
 }
@@ -18,7 +18,7 @@ ViewData["Title"] = "Список книг";
             @foreach(var i in @Model)
             {
             <tr>
-                <td>@i.id</td>
+                <td>@i.BookId</td>
                 <td>@i.Name</td>
                 <td>@i.Count</td>
                 <td>@i.Author</td>

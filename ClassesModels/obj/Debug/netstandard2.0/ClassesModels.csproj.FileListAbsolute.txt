@@ -1,0 +1,4 @@
+C:\Users\Popka\source\repos\BookAccounting\ClassesModels\obj\Debug\netstandard2.0\ClassesModels.csprojAssemblyReference.cache
+C:\Users\Popka\source\repos\BookAccounting\ClassesModels\obj\Debug\netstandard2.0\ClassesModels.AssemblyInfoInputs.cache
+C:\Users\Popka\source\repos\BookAccounting\ClassesModels\obj\Debug\netstandard2.0\ClassesModels.AssemblyInfo.cs
+C:\Users\Popka\source\repos\BookAccounting\ClassesModels\obj\Debug\netstandard2.0\ClassesModels.csproj.CoreCompileInputs.cache

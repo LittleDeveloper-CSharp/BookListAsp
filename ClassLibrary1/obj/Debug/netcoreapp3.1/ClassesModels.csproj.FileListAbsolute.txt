@@ -1,0 +1,12 @@
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassesModels.deps.json
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassesModels.runtimeconfig.json
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassesModels.runtimeconfig.dev.json
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassesModels.dll
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\bin\Debug\netcoreapp3.1\ClassesModels.pdb
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.csprojAssemblyReference.cache
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.AssemblyInfoInputs.cache
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.AssemblyInfo.cs
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.csproj.CoreCompileInputs.cache
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.dll
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.pdb
+C:\Users\Popka\source\repos\BookAccounting\ClassLibrary1\obj\Debug\netcoreapp3.1\ClassesModels.genruntimeconfig.cache
